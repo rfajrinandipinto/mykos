@@ -1,0 +1,207 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+body {
+  background: #f0f0f0;
+}
+.navbar {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+  width: 100%;
+}
+
+.hero-section {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-desc {
+  color: white;
+}
+
+.hero-desc h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+}
+
+.hero-desc h5 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+}
+
+.btn {
+  border-width: 3px;
+  font-family: "Work Sans", sans-serif;
+  background-color: transparent;
+  color: white;
+}
+.btn-1 {
+  background-color: #c5a880;
+}
+
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+
+.about-section,
+.facility-section {
+  height: 100vh;
+}
+
+.detail-section {
+  height: 100vh;
+}
+
+.about-section .col-10 {
+  background: white;
+}
+
+.facility-section .col-10 {
+  background: white;
+}
+
+.detail-section .col-10,
+.testimonial-section .col-10,
+.gallery-section .col-10,
+.pricing-section .col-10 {
+  background: white;
+}
+
+.section-title {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.about-desc {
+  font-family: "Work Sans", sans-serif;
+}
+
+.detail-icon p {
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.detail-icon .d-flex {
+  align-items: center;
+}
+
+.detail-icon .col-6 {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.detail-icon .col-8,
+.detail-icon .col-4 {
+  margin-top: 15px;
+  padding: 0;
+}
+
+.detail-icon .col-4 {
+  padding: 0;
+}
+
+.detail-icon .col-8 {
+  background-color: white;
+  height: 75px;
+  padding: 15px;
+}
+
+.detail-icon .col-8 p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.ad-section {
+  height: 30vh;
+}
+
+.ad-section .col-10 {
+  background-color: white;
+  padding: 30px;
+}
+
+.ad-section .btn-3 {
+  background-color: #c5a880;
+}
+
+.testimonial-section .detail p {
+  font-size: 15px;
+}
+
+.testimonial-section {
+  height: 75vh;
+}
+
+.gallery-section {
+  height: 50vh;
+}
+
+.pricing-section .pricing-content {
+  background-color: #c5a880;
+}
+
+.pricing-title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #c5a880;
+  background-color: white;
+}
+
+.pricing-price {
+  font-family: "Work Sans", sans-serif;
+  font-size: 45px;
+  font-weight: bolder;
+  color: white;
+}
+
+.pricing-section button {
+  background-color: #c5a880;
+  border: white solid;
+  font-weight: bold;
+}
+
+.pricing-section {
+  height: 100vh;
+}
+
+.location-desc {
+  background-color: white;
+}
+
+.location-section .col-8 {
+  font-size: 15px;
+}
+
+.location-section {
+  height: 100vh;
+}
+
+.contact-section .col-8 p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-section {
+  height: 50vh;
+}
