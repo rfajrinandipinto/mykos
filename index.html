@@ -27,16 +27,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#detail_kamar">Detail Kamar</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Harga</a>
+              <a class="nav-link" href="#harga">Harga</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Kontak</a>
+              <a class="nav-link" href="#lokasi">Lokasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lokasi">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak</a>
             </li>
           </ul>
         </div>
@@ -52,14 +58,15 @@
           </div>
 
           <div class="div">
-            <button type="button" class="btn btn-1 btn-light col-10 mb-3 mt-5 p-3">Booking Sekarang →</button>
-            <button type="button" class="btn btn-light col-10 p-3">Selengkapnya →</button>
+            <a href="https://api.whatsapp.com/send?phone=6281234567890&text=Halo%2C+saya+tertarik+untuk+menyewa+kos+ini
+            "><button type="button" class="btn btn-1 btn-light col-10 mb-3 mt-5 p-3">Booking Sekarang →</button></a>
+            <a href="#about"><button type="button" class="btn btn-light col-10 p-3">Selengkapnya →</button></a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="about-section row align-items-center justify-content-center">
+    <div id="about" class="about-section row align-items-center justify-content-center">
       <div class="col-12 text-center row align-items-center justify-content-center">
         <div class="col-10 rounded p-3 section-title"><p>About</p></div>
         <div class="card col-10 mt-4 p-0">
@@ -71,7 +78,7 @@
       </div>
     </div>
 
-    <div class="detail-section row align-items-center justify-content-center">
+    <div id="detail_kamar" class="detail-section row align-items-center justify-content-center">
       <div class="col-12 text-center row align-items-center justify-content-center">
         <div class="col-10 rounded p-3 section-title"><p>Detail Kamar</p></div>
         <div class="card col-10 mt-4 p-0">
@@ -144,12 +151,12 @@
           <p>Hubungi Segera !</p>
         </div>
         <div class="col-5">
-          <button type="button" class="btn btn-3 p-2">CHAT SEKARANG!</button>
+          <a href="https://api.whatsapp.com/send?phone=6281234567890&text=Halo%2C+saya+tertarik+untuk+menyewa+kos+ini"><button type="button" class="btn btn-3 p-2">CHAT SEKARANG!</button></a>
         </div>
       </div>
     </div>
 
-    <div class="testimonial-section row align-items-center justify-content-center">
+    <div id="testimonial" class="testimonial-section row align-items-center justify-content-center">
       <div class="col-12 row align-items-center justify-content-center">
         <div class="col-10 rounded p-3 section-title text-center"><p>Testimonial</p></div>
         <div class="col-10 rounded p-4 mt-4 text-center detail">
@@ -209,18 +216,18 @@
       </div>
     </div>
 
-    <div class="pricing-section row align-items-center justify-content-center">
+    <div id="harga" class="pricing-section row align-items-center justify-content-center">
       <div class="col-12 row align-items-center justify-content-center">
         <div class="col-10 rounded p-3 section-title text-center"><p>Harga</p></div>
         <div class="col-10 rounded text-center mt-4 justify-content-center row py-5 pricing-content">
           <div class="col-8 pricing-title rounded p-2 mb-3"><p>Bulanan</p></div>
           <div class="col-12 pricing-price my-3"><p>Rp 1.500K</p></div>
-          <button type="button" class="btn btn-3 p-2 mt-3 col-6">CHAT SEKARANG!</button>
+          <a href="https://api.whatsapp.com/send?phone=6281234567890&text=Halo%2C+saya+tertarik+untuk+menyewa+kos+ini"><button type="button" class="btn btn-3 p-2 mt-3 col-6">CHAT SEKARANG!</button></a>
         </div>
       </div>
     </div>
 
-    <div class="location-section row align-items-center justify-content-center">
+    <div id="lokasi" class="location-section row align-items-center justify-content-center">
       <div class="col-12 row align-items-center justify-content-center">
         <div class="col-10 rounded p-3 section-title text-center"><p>Lokasi</p></div>
         <div class="col-10 rounded p-0 mt-4">
@@ -237,25 +244,28 @@
       </div>
     </div>
 
-    <div class="contact-section row align-items-center justify-content-center">
+    <div id="kontak" class="contact-section row align-items-center justify-content-center">
       <div class="col-12 row align-items-center justify-content-center">
         <div class="col-10 rounded p-3 section-title text-center"><p>Kontak</p></div>
-        <div class="col-10 rounded row p-2 location-desc mt-3 align-items-center">
-          <div class="col-4 p-0"><img src="wa.svg" alt="" width="70%"></div>
-          <div class="col-8 p-0"><p>0895341972293</p></div>
-        </div>
+        <a href="https://api.whatsapp.com/send?phone=6281234567890&text=Halo%2C+saya+tertarik+untuk+menyewa+kos+ini" class="col-10">
+          <div class="col-12 row p-2 contact-desc mt-4 align-items-center">
+            <div class="col-4 p-0"><img src="wa.svg" alt="" width="70%"></div>
+            <div class="col-8 p-0"><p>0895341972293</p></div>
+          </div>
+        </a>
+        
       </div>
     </div>
 
 
     <footer class="py-3 my-2">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Detail</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Fasilitas</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Harga</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
+        <li class="nav-item"><a href="#detail_kamar" class="nav-link px-2 text-muted">Detail</a></li>
+        <li class="nav-item"><a href="#fasilitas" class="nav-link px-2 text-muted">Fasilitas</a></li>
+        <li class="nav-item"><a href="#harga" class="nav-link px-2 text-muted">Harga</a></li>
       </ul>
-      <p class="text-center text-muted">© 2021 Mykos, Inc</p>
+      <p class="text-center text-muted">© 2022 Mykos</p>
     </footer>
   
 

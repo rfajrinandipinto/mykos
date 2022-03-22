@@ -66,7 +66,7 @@ body {
 }
 
 .detail-section {
-  height: 100vh;
+  height: 75vh;
 }
 
 .about-section .col-10 {
@@ -105,7 +105,7 @@ body {
 }
 
 .detail-icon .col-6 {
-  margin-top: 10px;
+  margin-top: 15px;
   padding: 0;
 }
 
@@ -131,7 +131,7 @@ body {
 }
 
 .ad-section {
-  height: 30vh;
+  height: 20vh;
 }
 
 .ad-section .col-10 {
@@ -181,7 +181,7 @@ body {
 }
 
 .pricing-section {
-  height: 100vh;
+  height: 80vh;
 }
 
 .location-desc {
@@ -203,5 +203,11 @@ body {
 }
 
 .contact-section {
-  height: 50vh;
+  height: 40vh;
+}
+
+.contact-desc {
+  background-color: #128c7e;
+  color: white;
+  border-radius: 20px;
 }
